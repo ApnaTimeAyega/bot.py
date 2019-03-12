@@ -85,4 +85,4 @@ async def meme(ctx):
     await client.send_typing(ctx.message.channel)
     await client.send_message(ctx.message.channel, embed=embed) 
 
-client.run('NDM4NjI4NzY3MjgwMTM2MjAz.D2kxmQ.wN_ZrDeJ130Bs23U4DwEF4zYd4Y'
+client.run('NDM4NjI4NzY3MjgwMTM2MjAz.D2kxmQ.wN_ZrDeJ130Bs23U4DwEF4zYd4Y')
