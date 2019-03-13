@@ -1,1 +1,1 @@
-worker: python AndroBot.py
+worker: python Bot.py
