@@ -1,6 +1,6 @@
 client = discord.Client()
 
-server = discord.Server(id='246149549897416706')
+server = discord.Server(id='465814164577714177')
 
 @client.event
 async def on_message(message):
