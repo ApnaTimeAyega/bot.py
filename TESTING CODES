@@ -1,0 +1,14 @@
+client = discord.Client()
+
+server = discord.Server(id='246149549897416706')
+
+@client.event
+async def on_message(message):
+    # we do not want the bot to reply to itself
+    if message.author == client.user:
+        return
+
+    if message.content.startswith('!cleanup'):
+        await client.send_message(message.channel, 'Cleanup...')
+        await client.ban(server.get_member('198200359989018624'),     delete_message_days=6)
+        await client.unban(server, client.get_user_info('198200359989018624'))
